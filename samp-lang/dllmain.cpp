@@ -128,11 +128,11 @@ static void Thread()
 
 						if (strings[i][y] == '\\' && (y + 1) < strings[i].length())
 						{
-							switch (strings[i][y + 1])
+							switch (strings[i][y + 1]) // Yes, replace the two with one char
 							{
 								case 'n':
 								{
-									strings[i].replace(y, 2, "\n");
+									strings[i].replace(y, 2, "\n"); 
 									break;
 								}
 								case 'r':
