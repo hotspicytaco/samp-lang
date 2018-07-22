@@ -1,0 +1,73 @@
+\r\nGame Version: %s\r\n
+Warning(%s): Exception 0x%X at 0x%X
+Warning(opcode 0x%X): Exception 0x%X at 0x%X
+Client Network Stats
+Process Mem: %uKB Working Set: %uKB\n
+Streaming Mem: %uMB Total: %uMB System: %uMB\n
+InCar Send Rate: %u\n
+OnFoot Send Rate: %u\n
+Vehicles: %u\nVehicle Models: %u\nVehicle Models Loaded: %u\nRWObjects: %u\nPedSlotsUsed: %u\nObjectSlotsUsed: %u\nShotCompMode: %u\nFreeIDEs: %u\n
+Download Rate: %.2f KB/s\nUpload Rate: %.2f KB/s\n
+pagesize [10-20] (lines)
+Valid fontsize: -3 to 5
+Audio messages: Off
+Audio messages: On
+Memory: %u
+-> Frame Limiter: valid amounts are 20-90
+-> Frame Limiter: %u
+-> Head movements enabled
+-> Head movements disabled
+-> OnFoot position saved
+-> InCar position saved
+I can't open the savepositions.txt file for append.
+-> OnFoot pos saved
+I can't open the rawvehicles.txt file for append.
+-> InCar pos saved
+Current Interior: %u
+SA-MP Keys:
+{BB9999}F1\t{BBBBBB}Display this help dialog\n{BB9999}Tab\t{BBBBBB}Display the scoreboard\n{BB9999}F4\t{BBBBBB}Allows you to change class next time you respawn\n{BB9999}F5\t{BBBBBB}Show bandwidth statistics\n{BB9999}F7\t{BBBBBB}Toggle the chat box\n{BB9999}F8\t{BBBBBB}Take a screenshot\n{BB9999}F9\t{BBBBBB}Toggle the deathwindow\n{BB9999}T/F6\t{BBBBBB}Allows you to enter a chat message\n{BB9999}G\t{BBBBBB}Enter vehicle as passenger\n
+[id: %d, type: %d]\nDistance: %.2fm
+score
+name
+Players: %d
+Unable to save screenshot.
+Screenshot Taken - sa-mp%03i.png
+[id: %d, type: %d subtype: %d Health: %.1f preloaded: %u]\nDistance: %.2fm\nPassengerSeats: %u\ncPos: %.3f,%.3f,%.3f\nsPos: %.3f,%.3f,%.3f
+Warning: Model %u wouldn't load in time!
+Removed player %u due to error.
+Error: unmatched tilde
+Error: can't use k-codes in long string
+No texture!
+Width %u Height: %u Depth: %u
+Warning: bad train carriages
+Warning: couldn't create vehicle type: %u
+Warning: vehicle %u was not deleted
+All vehicle waiting slots are consumed!
+Warning: ignoring large TextDraw size=%u
+~r~Car Jacked~w~!
+Warning: bad object model ID (%u)
+Warning: Couldn't spawn player(%u)
+Connected to {B9C9BF}%.64s
+CONNECTION REJECTED: Incorrect Version.
+CONNECTION REJECTED: Unacceptable NickName
+Please choose another nick between and 3-20 characters
+Please use only a-z, A-Z, 0-9
+Use /quit to exit or press ESC and select Quit Game
+CONNECTION REJECTED: Bad mod version.
+CONNECTION REJECTED: Unable to allocate a player slot.
+Connected. Joining the game...
+Lost connection to the server. Reconnecting..
+The server is restarting..
+NameTag Player Status: ON
+NameTag Player Status: OFF
+The server didn't respond. Retrying..
+Wrong server password.
+Server closed the connection.
+The server is full. Retrying...
+You are banned from this server.
+Connecting to %s:%d...
+{FFFFFF}SA-MP {B9C9BF}What.Ever.Version {FFFFFF}Started
+Returning to class selection after next death
+Stay within the ~r~world boundries
+Warning: actor %u was not deleted
+Messages in Send buffer: %u\nMessages sent: %u\nBytes sent: %u\nAcks sent: %u\nAcks in send buffer: %u\nMessages waiting for ack: %u\nMessages resent: %u\nBytes resent: %u\nPacketloss: %.1f%%\nMessages received: %u\nBytes received: %u\nAcks received: %u\nDuplicate acks received: %u\n
